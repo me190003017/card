@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: OpenSans,Arial,"sans-serif";
+}
+.container{
+    display: flex;
+    height: 100vh;
+    background-color: white;
+}
+
+.card{
+    background-color: #1e94eb;
+    border-color: #1e94eb;
+    height: 240px;
+    width: 510px;
+    margin: auto;
+    cursor: pointer;
+    display: flex;
+    box-shadow: 0 0 black;
+    flex-direction: row;
+    border-radius: 11px;
+    padding: 1px;
+}
+.sp{
+    webkit-box-align: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.btn{
+    width: 130px;
+    height: 36px;
+    font-size: 13px;
+    font-weight: 600;
+    color: rgb(42, 115, 204);
+    border-radius: 2px;
+    outline: none;
+    position: relative;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(42, 115, 204);
+    padding: 0.5rem 1 rem;
+    filter: none;
+    text-decoration: none;
+    vertical-align: middle;
+    transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;
+    /* 
+    transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;
+    line-height: 1rem;
+    user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
+    background-image: none;
+    cursor: pointer;
+    filter: none;
+    text-decoration: none;
+    font-weight: 600;
+    
+    padding: 0.5rem 1rem;
+    min-height: 36px;
+    min-width: 10em;
+    font-size: 13px;  */
+}
+.partner-name{
+    font-weight: 800;
+    font-size: 12px;
+    min-height: 1em;
+    text-transform: uppercase;
+}
+.title  a{
+    background: transparent;
+    color: black;
+    outline: none;
+    text-decoration: none;
+}
+
+.title{
+    font-family: OpenSans,Arial,"sans-serif";
+    font-weight: 900;
+    color: black;
+    font-size: 16px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    line-height: 1.5em;
+    text-decoration: none;
+    outline: none;
+}
+
+
+.title-partener{
+    display: flex;
+    flex-direction: column;
+}
+
+.left-container{
+    margin: 24px;
+    width:342;
+    height:192;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.left-container p{
+    margin-bottom: 10px;
+    font-size: 13px;
+    font-family: serif;
+}
+.right-container{
+
+}
+
+.right-container img{
+
+}
+/* flex-direction: row;
+min-height: 240px;
+height: 100%;
+cursor: pointer;
+background-color: #fff;
+border: 1px solid #efefef;
+color: #1f1f1f;
+min-width: 510px; */
